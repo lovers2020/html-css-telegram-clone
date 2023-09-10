@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram</title>
+    <title>Telegram Web</title>
 </head>
 
 <body>
@@ -16,11 +16,18 @@
             <img src="image/telegram-mark.PNG" alt="" id="mark">
         </div>
         <h1 class="main-login__header">
-            Telegram
+            Sign in to Telegram
         </h1>
-        <p class="main-login___phone">
-            Please confirm your country code and enter your phone number.
-        </p>
+        <div class="main-login___phone">
+            Please confirm your country and
+            <br>enter your phone number.
+        </div>
+        <form id="select-country">
+            <div class="select-country__list">
+                <span>country</span>
+            </div>
+
+        </form>
 
         <form action="index.html" id="login-qrcode">
             <input type="submit" value="LOG IN BY QR CODE"></input>

@@ -3,6 +3,7 @@
 
 /* screen */
 @import "screen/main-login.css";
+@import "screen/login.css";
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
