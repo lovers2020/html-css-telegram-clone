@@ -2,22 +2,24 @@
   width: 100%;
   position: fixed;
   top: 0;
+  min-height: 3rem;
 }
 .main-login ol {
   margin-left: 20px;
   margin-bottom: 3px;
 }
 .main-login {
+  width: 100%;
   padding: 0;
   margin-top: 40px;
-  display: flex;
+  display: flex; 
   flex-direction: column;
-  align-items: center;
-  width: 100%;
+  justify-content: center;
+  align-items: center;  
 }
 .main-login .main-login__header {
  
-  margin-top: 38px;
+  margin-top: 40px;
   margin-bottom: 15px;
   font-size: 32px;
   font-weight: 500;
@@ -36,9 +38,11 @@
 .main-login #mark {
   width: 190px;
   height: 185px;
+  margin-bottom: 0;
 }
 .main-login___phone {
   color: rgb(112, 117, 121);
+  margin-bottom: 30px;
 }
 #login input[type="submit"], #login-qrcode input[type="submit"] {
   font-size: 16px;

@@ -16,18 +16,29 @@
             <img src="image/telegram-mark.PNG" alt="" id="mark">
         </div>
         <h1 class="main-login__header">
-            Sign in to Telegram
+            Sign in to Telegram            
         </h1>
         <div class="main-login___phone">
             Please confirm your country and
-            <br>enter your phone number.
+            <br>enter your phone number.            
         </div>
-        <form id="select-country">
-            <div class="select-country__list">
-                <span>country</span>
+        <div id="select">
+            <div class="select__column">
+                <span class="select__text">Country</span>
+                <div class="select__country">
+                    <span>South Korea</span>
+                </div>
+                <div class="select__country">
+                    <i class="fa-solid fa-chevron-down fa-lg"></i>
+                </div>
+                
+            </div>
+            <div class="select__column">
+                <span class="select__text">Phone Number</span>
+                <span style="font-size: 16px; font-weight: 300;">+82</span>
             </div>
 
-        </form>
+        </div>
 
         <form action="index.html" id="login-qrcode">
             <input type="submit" value="LOG IN BY QR CODE"></input>
@@ -37,6 +48,7 @@
 
 
 
+    <script src="https://kit.fontawesome.com/a713bd0bc0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
