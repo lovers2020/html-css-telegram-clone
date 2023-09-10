@@ -15,7 +15,7 @@
     font-size: 16px;
     font-weight: 300;
 }
-.select__column {
+.select__column { 
     position: relative; 
     display: flex;
     border: 1px solid rgba(0,0,0,0.1);
@@ -32,7 +32,7 @@
 }
 
 .select__column:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 .select__text { 
     position: absolute;
@@ -41,4 +41,12 @@
     background-color: white;
     margin-left: 5px;
     padding: 0px 5px;
+}
+.input-phonenumber {
+    font-size: 16px; 
+    font-weight: 300;
+    width: 100%;
+    outline: none;
+    
+
 }
