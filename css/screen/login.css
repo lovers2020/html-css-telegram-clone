@@ -42,11 +42,32 @@
     margin-left: 5px;
     padding: 0px 5px;
 }
+.login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .input-phonenumber {
     font-size: 16px; 
     font-weight: 300;
     width: 100%;
     outline: none;
-    
-
+}  
+#login {
+    width: 100%;
 }
+#login button{    
+    width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: #8590ec;
+  padding: 20px 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer; 
+  text-transform: uppercase;
+}
+#login button:hover{
+  background-color: #f1f7fc;
+} 
