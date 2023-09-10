@@ -5,6 +5,11 @@
 @import "screen/main-login.css";
 @import "screen/login.css";
 
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
 body {
   font-family: "Roboto",-apple-system,apple color emoji,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
   width: 100%;

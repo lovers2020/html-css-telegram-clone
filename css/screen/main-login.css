@@ -18,8 +18,8 @@
 }
 .main-login .main-login__header {
   text-align: center;
- width: 100%;
-  margin-top: 40px;
+  width: 100%;
+  margin-top: 45px;
   margin-bottom: 15px;
   font-size: 32px;
   font-weight: 500;
@@ -28,7 +28,7 @@
   padding-left: 40px;
 }
 .main-login .qr-description li {
-  margin: 12px 0px;
+  margin-top: 12px;
   font-weight: 300;
 }
 .main-login img {
@@ -44,8 +44,8 @@
   color: rgb(112, 117, 121);
   margin-bottom: 30px;
   line-height: 1.25rem;
-}
-#login input[type="submit"], #login-qrcode input[type="submit"] {
+} 
+#login button{  
   font-size: 16px;
   font-weight: 300;
   color: #8590ec;
@@ -53,9 +53,11 @@
   border-radius: 10px;
   border: none;
   background-color: white;
-  cursor: pointer;
-  width: 100%;
+  cursor: pointer; 
+  text-transform: uppercase;
 }
-#login input[type="submit"]:hover, #login-qrcode input[type="submit"]:hover {
+#login button:hover{
   background-color: #f1f7fc;
+}
+#login a { 
 }
