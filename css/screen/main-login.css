@@ -1,19 +1,13 @@
-.login-header {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  margin-top: 3rem;
-}
 .main-login {
+  width: 100%;
+  max-width: 25.5rem;
+  margin: 0 auto;
   padding: 1rem;
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 5rem;
+  text-align: center;
+  box-sizing: border-box;
 }
 .main-login__column {
-  height: 280px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -26,31 +20,32 @@
   font-weight: 500;
   line-height: 1;
 }
-.main-login .qr-description {  
+.main-login ol {
+  display: block;
   margin-top: 0;
-  margin-bottom: 1rem;
   list-style: none;
   counter-reset: number;
   padding: 0px 1.75rem;
 }
 .main-login .qr-description li {
-  display: flex; 
+  text-align: left;
+  display: flex;
   counter-increment: number;
-  margin: 0.75rem 0; 
+  margin-bottom: 0.75rem;
 }
 .qr-description li::before {
-    content: counter(number);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 1.375rem;
-    height: 1.375rem;
-    padding: 0;
-    margin: 0 0.75rem 0 0;
-    background: #3390ec;
-    border-radius: 50%; 
-    font-size: smaller;
-    color: white;
+  content: counter(number);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1.375rem;
+  height: 1.375rem;
+  padding: 0;
+  margin: 0 0.75rem 0 0;
+  background: #3390ec;
+  border-radius: 50%;
+  font-size: smaller;
+  color: white;
 }
 .main-login img {
   width: 280px;
@@ -68,6 +63,7 @@
   }
   100% {
     transform: scale(1);
+  }
 }
 .main-login #mark {
   width: 170px;
@@ -78,4 +74,7 @@
   color: rgb(112, 117, 121);
   margin-bottom: 30px;
   line-height: 1.25rem;
+}
+.main-login__loginwithphone {
+  width: 100%;
 }
