@@ -18,7 +18,7 @@
   width: 100%;
   text-align: center;
   margin: 1.5rem 0 1rem 0;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1;
 }
@@ -98,6 +98,8 @@
   text-transform: uppercase;
   transition: background-color 0.2s, color 0.2s;
 }
-#login button:hover {
+#login button:hover,
+#login button:focus {
   background-color: #f1f7fc;
+  outline: none;
 }
