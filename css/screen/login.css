@@ -6,12 +6,19 @@
   color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
 }
-.form-country,
-.form-phone {
+.form__column {
   position: relative;
   width: 100%;
   border: none;
   margin-bottom: 1.5rem;
+}
+.form label {
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  background-color: white;
+  margin-left: 5px;
+  padding: 0px 5px;
 }
 .form input {
   width: 100%;
@@ -21,24 +28,14 @@
   height: 2.75rem;
   font-size: 16px;
   outline: none;
-  text-align: left;
   letter-spacing: 0.5px;
-  padding: 0.5rem 1rem;
+  padding: 1.25rem;
 }
 .form i {
   color: rgba(0, 0, 0, 0.5);
   position: absolute;
   right: 12px;
   top: 20px;
-}
-.form label {
-  position: absolute;
-  left: 0px;
-  top: -10px;
-  background-color: white;
-  margin-left: 5px;
-  padding: 0px 5px;
-  z-index: 1;
 }
 .login-text {
   font-size: 0.875rem;
@@ -47,12 +44,13 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
-.select__column:hover > label {
+.form__column input:hover + label {
   color: #6baff1;
 }
-.select__column:hover {
-  border: 1px solid #6baff1;
+.form__column input:hover {
+  border-color: #6baff1;
 }
-.select__column:focus-within {
+.form__column input:focus {
+  border-color: #6baff1;
   box-shadow: 0px 0px 0px 1px #6baff1 inset;
 }
