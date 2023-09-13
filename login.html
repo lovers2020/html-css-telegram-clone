@@ -25,22 +25,18 @@
             </span>
 
         </div>
-        <div id="select">
-            <div class="select__column">
+        <form class="form">
+            <div class="form-country">
                 <label>Country</label>
-                <div class="select__country">
-                    <span>South Korea</span>
-                </div>
-                <div class="select__country">
-                    <i class="fa-solid fa-chevron-down fa-lg"></i>
-                </div>
+                <input type="text" required class="input-country" contenteditable="true"></input>
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
             </div>
-            <div class="select__column">
+            <div class="form-phone">
                 <label>Phone Number</label>
-                <div class="input-phonenumber" contenteditable="true" inputmode="decimal">+82</div>
+                <input type="text" required class="input-phonenumber" contenteditable="true"></input>
             </div>
-        </div>
-
+            <button class="next">next</button>
+        </form>
         <div class="main-login__loginwithphone">
             <form action="index.html" id="login">
                 <button class="login-phonemuber">
