@@ -1,0 +1,31 @@
+.chats-main {
+  width: 100vw;
+  position: relative;
+}
+.chats-main__header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+.chats-main__header-column {
+}
+.chats-main__header:first-child i {
+  margin: 1.5rem;
+}
+.chats-main__header-column:nth-child(2) {
+  width: 100vw;
+  margin-left: 1rem;
+}
+.chats-main__header-column input {
+  font-size: 16px;
+  margin-top: 0.5rem;
+  padding: 0.75rem 2rem;
+  background-color: #f4f4f5;
+  opacity: 0.8;
+  border: none;
+  border-radius: 20px;
+}
+.chats-main__header-column:nth-child(2) span {
+  position: absolute;
+}
