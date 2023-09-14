@@ -1,7 +1,4 @@
-.form {
-  width: 100%;
-}
-.form label {
+.form .form__column label {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
@@ -12,7 +9,7 @@
   border: none;
   margin-bottom: 1.5rem;
 }
-.form label {
+.form .form__column label {
   position: absolute;
   left: 0px;
   top: -10px;
@@ -20,13 +17,14 @@
   margin-left: 5px;
   padding: 0px 5px;
 }
-.form input {
+.form .form__column input {
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: block;
   height: 2.75rem;
-  font-size: 16px;
+  font-size: 1rem;
+  font: inherit;
   outline: none;
   letter-spacing: 0.5px;
   padding: 1.25rem;
@@ -55,6 +53,23 @@
   border-radius: 0.75rem;
   font-size: 16px;
 }
+.form .checkbox {
+  width: 100%;
+  display: flex;
+  padding-left: 1.25rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+#checkbox-button {
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+}
+.form .checkbox span {
+  margin-left: 2rem;
+}
+
 .form__column input:hover + label {
   color: var(--login-border);
 }
