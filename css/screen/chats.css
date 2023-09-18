@@ -9,14 +9,15 @@
   display: flex;
 }
 #menubutton {
-  color: none;
-  background-color: none;
-  outline: none;
+  background-color: white;
+  border: none;
+  padding: 0;
 }
 .chats-main__header:first-child i {
   margin: 1.5rem;
   margin-top: 1.75rem;
   color: var(--color-gray);
+  pointer-events: none;
 }
 .chats-main__header-column:nth-child(2) i {
   margin: 0;
