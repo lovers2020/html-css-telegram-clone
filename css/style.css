@@ -5,6 +5,7 @@
 @import "screen/main-login.css";
 @import "screen/login.css";
 @import "screen/chats.css";
+@import "screen/menu.css";
 
 html,
 body {
