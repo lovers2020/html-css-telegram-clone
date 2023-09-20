@@ -6,6 +6,7 @@
 @import "screen/login.css";
 @import "screen/chats.css";
 @import "screen/menu.css";
+@import "screen/settings.css";
 
 *,
 *::before,

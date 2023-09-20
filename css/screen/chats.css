@@ -3,16 +3,23 @@
   position: relative;
 }
 .chats-main__header {
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 0.75rem;
+  background-color: white;
+  z-index: 1;
+}
+.chats-main__chatlist {
+  margin-top: 3.75rem;
 }
 .chatlist__column {
   margin: 0.25rem 0;
 }
 .chats-main__header-column:nth-child(2) {
   width: 100%;
+  margin-top: 0.25rem;
 }
 #menubutton {
   background-color: white;
