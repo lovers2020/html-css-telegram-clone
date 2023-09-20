@@ -5,6 +5,7 @@
 .chats-main__header {
   width: 100%;
   display: flex;
+  align-items: center;
   margin-bottom: 0.75rem;
 }
 .chatlist__column {
@@ -28,14 +29,12 @@
   margin: 0;
   pointer-events: none;
   position: absolute;
-  left: 88px;
-  top: 19px;
+  left: 85px;
+  top: 18px;
 }
 .chats-main__header-column .searchbar {
-  margin-left: 0.2rem;
-  width: 95%;
+  width: 98%;
   font-size: 16px;
-  margin-top: 0.4rem;
   padding: 0.75rem 0.5rem 0.75rem 3rem;
   background-color: #f4f4f5;
   opacity: 0.8;
@@ -97,4 +96,20 @@
 }
 .chats-main__chatlist-column .chatlist__column:last-child {
   align-items: center;
+}
+.chats-main-setting {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chats-main-setting span {
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.setting-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
