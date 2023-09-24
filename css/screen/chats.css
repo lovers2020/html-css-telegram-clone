@@ -25,6 +25,7 @@
   background-color: white;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
 .chats-main__header:first-child i {
   margin: 1.5rem;
