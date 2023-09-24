@@ -9,6 +9,7 @@
   color: rgba(0, 0, 0, 0.9);
   margin: 0.4rem 0;
   padding: 1rem 1rem 1rem 1.75rem;
+  border-radius: 40px;
 }
 .button-menu__column-img {
   display: flex;
@@ -19,6 +20,8 @@
   opacity: 0.7;
 }
 .button-menu__column-text {
+  width: 100%;
+  height: 100%;
   font-weight: 400;
   margin-left: 2rem;
 }
@@ -37,4 +40,19 @@
   font-size: smaller;
   background-color: rgb(244, 244, 245);
   color: rgb(112, 117, 121);
+}
+.into-setting {
+  box-shadow: 0px 0px 7px 0px rgba(112, 117, 121, 0.1);
+}
+.into-setting input[type="submit"] {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
 }
