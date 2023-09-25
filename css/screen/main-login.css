@@ -49,11 +49,6 @@
   font-size: smaller;
   color: white;
 }
-.main-login img {
-  width: 280px;
-  height: 280px;
-  animation: qr-show 0.4s ease-in-out forwards;
-}
 @keyframes qr-show {
   0% {
     opacity: 0;
@@ -66,6 +61,60 @@
   100% {
     transform: scale(1);
   }
+}
+.main-login img {
+  width: 280px;
+  height: 280px;
+  animation: qr-show 1s ease-in-out 5s normal forwards;
+}
+@keyframes circle-show {
+  0% {
+    z-index: 1;
+    opacity: 1;
+  }
+  25% {
+    z-index: 1;
+    opacity: 1;
+  }
+  50% {
+    z-index: 1;
+    opacity: 1;
+  }
+  75% {
+    z-index: 1;
+    opacity: 1;
+  }
+  100% {
+    z-index: 0;
+    opacity: 0;
+  }
+}
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  background-color: white;
+  width: 310px;
+  height: 310px;
+  animation: circle-show 6s linear forwards;
+}
+@keyframes rotatecircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.circle__column {
+  width: 60px;
+  height: 60px;
+  border: 5px solid #3390ec;
+  border-radius: 30px;
+  border-top: 5px solid white;
+  animation: rotatecircle 1s linear infinite;
 }
 .main-login #mark {
   width: 7rem;
